@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <meta charset="utf-8">
+  <style>
+  img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pictureblock {
+    padding: 50px;
+  }
+
+  .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border:solid;
+    padding: 15px 32px;
+    text-align:center;
+    display:inline-block;
+    font-size:20px;
+    color: white;
+    background-color: pink;
+  }
+
+  .button:hover {
+    background-color:#FF85A5;
+    color: white;
+  }
+
+  .btn2 {
+    position: absolute;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border:solid;
+    padding: 10px 15px;
+    text-align:center;
+    display:inline-block;
+    font-size:20px;
+    color: white;
+    background-color: pink;
+  }
+
+  .btn2:hover {
+    background-color:#FF85A5;
+    color: white;
+  }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <ul>
+    <li><a href="body.html">Home</a></li>
+    <li><a>About</a>
+        <ul>
+          <li><a href="author.html">Author</a></li>
+          <li><a href="purpose.html">Purpose</a></li>
+        </ul>
+    </li>
+    <li><a>Recipes</a>
+      <ul>
+        <li><a href="cake.html">Chinese Egg Cake</a></li>
+        <li><a href="cupcake.html">Chinese Cupcake</a></li>
+        <li><a href="mochi.html">Mochi</a></li>
+        <li><a href="pancake.html">Pancakes</a></li>
+      </ul>
+    </li>
+    <li><a>Dessert Shops</a>
+      <ul>
+        <li><a href="softswerve.html">Soft Swerve</a></li>
+        <li><a href="taiyaki.html">Taiyaki</a></li>
+        <li><a href="bibble.html">Bibble and Sip</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <br>
+
+</head>
+<body>
+  <br><br><br>
+  <img src="cookies1.jpg" height="650" width="70%" class="center" alt="cookies" >
+  <br><br>
+  <b><p align="center" style="background-color: #FDB798"><font size="8"> Must Try Recipes: </font size></p></b>
+  <br>
+  <div class="pictureblock">
+      <img style="position:absolute; width:400px; height:400px" src="eggcake.jpg" alt="eggcake">
+      <a href="cake.html" class="button" style="left:170px; top:1150px">Chinese Egg Cake</a>
+      <img src="cupcake.jpg" style="position:absolute; left:540px; height:400px; width:400px" alt="cupcake">
+      <a href="cupcake.html" class="button" style="left:650px; top:1150px">Chinese Cupcake</a>
+      <img src="mochi.jpg" style="position:absolute; left:1020px; height:400px; width:400px" alt="mochi">
+      <a href="mochi.html" class="button" style="left:1175px; top:1150px">Mochi</a>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <b><p align="center" style="background-color:#FDB798; position:center"><font size="7"> Latest Post </font size></p><b>
+  <b><p align="center"><font size="6">Soft Swerve</font size></p><b>
+  <a href="softswerve.html"> <img src="icecream.jpg" height="500" class="center" width="50%" alt="icecream"></a>
+  <center><p align="center" style="background-color:pink; border:solid white; padding:10px; width:50%;"><font size="4">
+  Located in the heart of Chinatown in Manhattan, Soft Swerve is one of the most popular ice cream shops in the area.
+  Everyday, the small store is packed with costumers waiting to try their signature flavor: Ube! Ube is a purple yam
+  that is oftened used in Filipino desserts. Soft Swerve offers a variety of different ice cream flavors: Ube, Matcha,
+  Black Seaseme, Coconut and other seasonal flavors.</p></center>
+  <br><br>
+  <center><b><p align="center" style="border:solid white; margin:10px; background-color:#FDB798; width:70%; padding:15px"><font size="8">Comments</font size></p></b></center>
+  <form action="website.py" method="post">
+    <form action="/cgi-bin/website.py" method="get">
+      <b><p>First Name: <input type="text" name="fname" size="15"></p></b>
+      <b><p>Last Name: <input type="text" name="lname" size="15"></p></b>
+      <p>Leave a comment:<p>
+      <textarea name="Comments" rows=15 cols=100> </textarea><br><br>
+      <input type="submit" value="Submit" name="sumbit" class="btn2">
+    </form>
+</body>
+</HTML
