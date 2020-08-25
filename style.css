@@ -30,6 +30,7 @@ ul li a {
 
 ul li a:hover {
   background-color: green;
+  text-decoration: none;
 }
 
 ul li ul li {
