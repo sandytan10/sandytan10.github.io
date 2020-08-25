@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <style>
+    .button {
+      position: absolute;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      border:solid;
+      padding: 5px 10px;
+      text-align:center;
+      display:inline-block;
+      font-size:20px;
+      color: white;
+      background-color: pink;
+    }
+
+    .button:hover {
+      background-color:#FF85A5;
+      color: white;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <ul>
+    <li><a href="body.html">Home</a></li>
+    <li><a>About</a>
+        <ul>
+          <li><a href="author.html">Author</a></li>
+          <li><a href="purpose.html">Purpose</a></li>
+        </ul>
+    </li>
+    <li><a>Recipes</a>
+      <ul>
+        <li><a href="cake.html">Chinese Egg Cake</a></li>
+        <li><a href="cupcake.html">Chinese Cupcake</a></li>
+        <li><a href="mochi.html">Mochi</a></li>
+        <li><a href="pancake.html">Pancakes</a></li>
+      </ul>
+    </li>
+    <li><a>Dessert Shops</a>
+      <ul>
+        <li><a href="softswerve.html">Soft Swerve</a></li>
+        <li><a href="taiyaki.html">Taiyaki</a></li>
+        <li><a href="bibble.html">Bibble and Sip</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <br>
+</head>
+<body>
+  <br><br>
+  
+  <center><h1 style="border:solid white; background-color: #FDB798; width:80%; padding:20px"> Contact </h1></center>
+  <form method="get" action="comment.py">
+      <b><p><font size="5">First Name: <input type="text" name="fname" size="20"></font size></p></b>
+      <b><p><font size="5">Last Name: <input type="text" name="lname" size="20"></font size></p></b>
+      <font size="4">Question/Comments:</font size><br>
+      <textarea name="Comments" rows=20 cols=100 width="50%"> </textarea><br>
+      <input type="submit" value="Submit" name="sumbit" class="button">
+    </form>
+  <br><br><br><br>
+
+  <center><h2 style="border:solid white; background-color: #FDB798; width:80%; padding:20px"><font size="6"> Contact Information</font size></h2>
+    <font size="5" align="center"><a href="mailto:sandytan615@gmail.com"> Email </a></font size></center>
+      <br><br>
+
+      <p align="center" style="background-color:#FDB798; position:center"><font size="3">
+        <a href="mailto:sandytan615@gmail.com"> Email </a> <br>
+        Telephone: (212) 312-4800   /  Fax: (212) 587-3874 <br>
+        <a href="body.html">Homepage</a><br>
+        Date of Creation: 6/1/19<br>
+        All Rights Reserved.<br>
+      </font size></p>
+
+</body>
+</HTML>

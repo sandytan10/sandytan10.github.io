@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title> Get Name </title>
+  </head>
+  <body>
+    <p>Feedback: <p>
+    <form method="get" action="feedback.py" >
+      <ol>
+      <li>On a scale of 1-3, what would you rate this website?</li>
+        <input type="radio" name="rating" value="one"> 1
+        <input type="radio" name="rating" value="two"> 2
+        <input type="radio" name="rating" value="three"> 3
+
+      <li>On a scale of 1-3, how helpful was this website?</li>
+        <input type="radio" name="help" value="one"> 1
+        <input type="radio" name="help" value="two"> 2
+        <input type="radio" name="help" value="three"> 3
+
+      <li>Did you like the website?</li>
+        <input type="radio" name="like" value="yes"> Yes!
+        <input type="radio" name="like" value="no"> No :(
+      <br>
+	<input type = "submit" value = "Submit" />
+      </ol>
+    </form>
+
+
+  </body>
+</html>
